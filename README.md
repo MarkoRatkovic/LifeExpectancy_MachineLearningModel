@@ -15,7 +15,7 @@ Model Testing --> Testing of model on data after training and fitting in order t
 
 Model Evaluation --> Evaluation of model using different brackets of life expectancy and ConfusionMatrix to maximize accuracy of model trained on optimized features
 
-Results: Model predicts with 90.2111% accuracy the correct binned decade of life expectancy for a country when dividing into three binned decades beginning at age 54. Of the 521 countries tested on, not one has a predicted life expectancy decade more than one bin removed from its actual one, indicating some of the errors come from edge cases
+Results: Model predicts with 90.2111% accuracy the correct binned decade of life expectancy for a country when dividing into three binned decades beginning at age 54. Of the 521 countries tested on, not one has a predicted life expectancy decade more than one bin removed from its actual one, indicating that at least some of the error comes from edge case misclassification (predicted age of 63.5, actual age of 64.3). 
 
 <img width="510" height="432" alt="image" src="https://github.com/user-attachments/assets/2cb61677-075c-4899-a2a6-98f382cb743f" />
 
