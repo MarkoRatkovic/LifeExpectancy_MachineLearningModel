@@ -14,3 +14,5 @@ Model Development --> Training of model on dataset using LinearRegression for fi
 Model Testing --> Testing of model on data after training and fitting in order to predict average life expectancy with one model variation using dummy variables
 
 Model Evaluation --> Evaluation of model using different brackets of life expectancy and ConfusionMatrix to maximize accuracy of model trained on optimized features
+
+Results: Model predicts with 90.2111% accuracy the correct binned decade of life expectancy for a country 
